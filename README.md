@@ -6,7 +6,7 @@
 
 🐳 A conda container with [DeepSVR] installation.
 
-    docker run -it papaemmelab/docker-deepsvr --help
+    docker run -it papaemmelab/docker-deepsvr deepsvr --help
 
 <!-- References -->
 [DeepSVR]: https://github.com/griffithlab/DeepSVR
