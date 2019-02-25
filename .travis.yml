@@ -1,0 +1,7 @@
+services:
+  - docker
+
+script:
+  - docker build -f Dockerfile -t docker-strelka .
+  - docker run -it docker-strelka configManta.py --version
+  - docker run -it docker-strelka configureStrelkaSomaticWorkflow.py --version
